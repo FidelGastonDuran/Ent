@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EntrenandoMentes</title>
+
+    <style>
+        #podcast{
+            border-bottom: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <nav class="nav-0">
+            <div class="logo">
+            <a href="index.html">
+                <img src="/img/logo.png">  
+            </a>
+            <h1>"No te creas nada, cuestionate todo"<h1>
+            </div>
+
+            <button id="btn-popup-login">Login</button>
+
+        </nav>
+
+        <nav class="nav-1">
+                <a href="index.html">Inicio</a>
+                <a href="biblioteca.html">Biblioteca</a>
+                <a href="podcast.html" id="podcast" >Podcast</a>  
+        </nav>
+
+    </header>
+
+    <div id="proximamente">
+        <h1>Proximamente...</h1>
+    </div>
+    <footer>
+
+        <div class="redes">
+
+            <a href="https://www.instagram.com/entrenandomentes/" target="_blank"><img src="/img/instagram.png"></a>
+            <a href="https://api.whatsapp.com/send?phone=5492236881715" target="_blank"><img src="/img/whatsapp.png"></a>
+            <a href="https://www.facebook.com/entrenandomentesmdp" target="_blank"><img src="/img/facebook.png"></a>
+            <a href="https://www.tiktok.com/@entrenandomentesmdp" target="_blank"><img src="/img/tiktok.png"></a>
+            <a href="https://www.youtube.com/channel/UC5upKbsNJppo4IBzUAd_a2g" target="_blank"><img src="/img/youtube.png"></a>
+
+        </div>
+
+        <div class="creditos">
+            <p>D</p>
+            <p>aasdfasdfsadfasdfasdfasdfasdfasd</p>
+        </div>
+
+        <div class="logo2">
+            <img src="/img/logo2.png">
+        </div>
+
+    </footer>
+    <dialog id="popup-register">
+        
+        <button id="close-register">&times</button>
+
+        <div class="form">
+    
+            <h2>Create an account</h2>
+               
+            <div class="form-element">
+    
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
+    
+            </div>
+    
+            <div class="form-element">
+    
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+    
+            </div>
+
+            <div class="form-element">
+    
+                <label for="password">Confirm Password</label>
+                <input type="password" id="password" placeholder="Confirm password">
+    
+            </div>
+    
+            <div class="form-element">
+    
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+    
+            </div>
+    
+            <div class="form-element">
+    
+                <button>Sing up</button>
+    
+            </div>
+    
+            <div class="form-element" >
+    
+                <a href="#" id="forgot-password">Forgot password?</a>
+    
+            </div>
+
+            <div class="form-element" id="already-have-account">
+                <p>Already have an account?
+                <a href="#" id="login-link">Log In</a></p>
+    
+            </div>
+    
+        </div>
+
+    </dialog>
+    
+    <dialog id="popup-login">
+
+        <button id="close-login">&times</button>
+  
+        <div class="form">
+    
+            <h2>Log in</h2>
+               
+            <div class="form-element">
+    
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
+    
+            </div>
+    
+            <div class="form-element">
+    
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+    
+            </div>
+    
+            <div class="form-element">
+    
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+    
+            </div>
+    
+            <div class="form-element">
+    
+                <button>Sign in</button>
+    
+            </div>
+    
+            <div class="form-element" >
+    
+                <a href="#" id="forgot-password">Forgot password?</a>
+    
+            </div>
+
+            <div class="form-element" id="dont-have-account">
+                <p>Don't have an account?
+                <a href="#" id="register-link">Sing Up</a></p>
+    
+            </div>
+    
+        </div>
+    
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>

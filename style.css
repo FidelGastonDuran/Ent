@@ -1,0 +1,368 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    margin-left: 20px;
+    color: white;
+}
+
+.nav-0 img{
+    height: 80px;
+    filter: saturate(4);
+}
+
+.nav-1{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    border-top: 3px solid  #ffffff21;
+    border-bottom: 3px solid  #ffffff21;
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+
+.nav-1 a{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.nav-1 a:hover{
+    border-bottom: 2px solid white;
+}
+
+#btn-popup-login{
+    margin: 0px 10px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-popup-login:hover{
+    background-color: #ffffff31;
+}
+
+/*Dialogo login*/
+
+dialog {
+    place-items: center;
+    margin: auto;
+    min-width: 235px;
+    min-height: 471px;
+    width: 50vh;
+    height: 40vh;
+    background-color: #a7a7a7;
+    border: 3px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#close-register{
+    font-size: 20px;
+    color: #222;
+    background-color: #b8b8b8f6;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    border-color:#222;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#close-login{
+    font-size: 20px;
+    color: #222;
+    background-color: #b8b8b8f6;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    border-color:#222;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.form h2{
+    text-align: center;
+    color: #222;
+    margin: 10px 0px 20px;
+    font-size: 25px;
+}
+
+.form .form-element{
+    margin: 15px 0px;
+}
+
+.form .form-element label{
+    font-size: 14px;
+    color: #222;
+
+}
+
+.form .form-element input[type="text"],
+.form .form-element input[type="password"]{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.form .form-element input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+.form .form-element button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: #222;
+    color: #f5f5f5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#remember-me{
+    cursor: pointer;
+}
+
+#forgot-password{
+    display: grid;
+    place-content: center;
+    font-size: 15px;
+    color: #1a79ca;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#dont-have-account{
+    display: grid;
+    place-content: center; 
+}
+
+#register-link{
+    font-size: 15px;
+    color: #1a79ca;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#already-have-account{
+    display: grid;
+    place-content: center; 
+}
+
+#login-link{
+    font-size: 15px;
+    color: #1a79ca;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*Inicio*/
+
+.contenedor-inicio{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-inicio h1{
+    font-size: 7vh;
+    border-bottom: 2px solid white;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.contenedor-inicio p{
+    font-size: 2.7vh;
+    margin: 0;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+
+.contenedor-inicio ul {
+    font-size: 3vh;
+    color: white;
+}
+
+/*Biblioteca*/
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+
+.product-container{
+    background-color: #00000067;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 55vh;
+    align-items: center;
+    justify-content: center;
+    margin:2vh;
+    border: 2px solid #ffffffa4
+}
+
+.product-container h1{
+    margin: 0;
+    color: white;
+    font-size: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container h2{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 2vh;
+    font-size: 2vh;
+    color: white;
+}
+
+.product-container button{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.product-container button:hover{
+    background-color: #ffffff31;
+}
+
+.product-container:hover{
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.356);
+}
+
+.image-container{
+    margin-top: 10%;
+    height: 60%;
+    width: 80%;
+}
+
+.product-container img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}
+
+/*Podcast*/
+
+#proximamente {
+    margin-bottom: 18vh;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#proximamente h1{
+    color: white;
+    font-size: 10vh;
+    display: flex;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.creditos{
+    margin-top: 10vh;
+    margin-left: 10vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redes img{
+    width: 4vh;
+    height: 4vh;
+    object-fit:contain;
+}
+
+.logo2{
+    width: 20vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b4b4b4ce;
+    border-radius: 5000px;
+}
+
+.logo2 img {
+    height: 18vh;
+}
