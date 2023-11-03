@@ -42,3 +42,4 @@ linkLogin.addEventListener("click",()=>{
 btnCloseRegister.addEventListener("click",()=>{
     PopupRegister.close();
 })
+

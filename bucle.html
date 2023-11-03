@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page-content">
+    <!-- Aca se inserta el Script-->
+</div>
+
+
+<script>
+
+
+    const PageContent = document.querySelector(".page-content")
+    
+
+    for (let i = 0; i <= 8; i++){
+
+    const ProductContainer = document.createElement("ProductContainer")
+    ProductContainer.innerHTML = '<div class="product-container"><div class="image-container"><img src="/Libros/Vayamos adelante.jpg"></div><h2>Michelle Bachelet</h2><h1>Vayamos Adelante</h1><button>Reservar</button></div>';
+    PageContent.appendChild(ProductContainer);
+
+}
+</script>
+
+</body>
+</html>
+
+<!--
+<div class="product-container">
+    <div class="image-container">
+        <img src="/Libros/Vayamos adelante.jpg">
+    </div>
+    <h2>Michelle Bachelet</h2>
+    <h1>Vayamos Adelante</h1>
+    <button>Reservar</button>
+</div>
+-->
